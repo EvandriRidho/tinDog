@@ -1,7 +1,13 @@
+import HomePage from "./pages/home";
+import Navbar from "./pages/navbar";
+
 let App = () => {
-    return (
-        <p>Hello World</p>
-    )
-}
+  return (
+    <>
+      <Navbar />
+      <HomePage />
+    </>
+  );
+};
 
 export default App;
