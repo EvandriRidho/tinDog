@@ -1,4 +1,4 @@
-let HomePage = () => {
+let Hero = () => {
   return (
     <div className="pt-24 pb-12 bg-gray-100" id="home">
       <div className="flex flex-col justify-center items-center">
@@ -42,4 +42,4 @@ let HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Hero;

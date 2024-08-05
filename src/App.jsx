@@ -1,13 +1,7 @@
-import HomePage from "./pages/home";
-import Navbar from "./pages/navbar";
+import HomePage from "./pages/homePage";
 
 let App = () => {
-  return (
-    <>
-      <Navbar />
-      <HomePage />
-    </>
-  );
+  return <HomePage />;
 };
 
 export default App;
