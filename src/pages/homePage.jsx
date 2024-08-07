@@ -1,3 +1,4 @@
+import Features from "../components/layouts/Feautures";
 import Hero from "../components/layouts/hero";
 import Navbar from "../components/layouts/navbar";
 
@@ -6,6 +7,7 @@ let HomePage = () => {
     <>
       <Navbar />
       <Hero />
+      <Features />
     </>
   );
 };
