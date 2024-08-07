@@ -1,3 +1,5 @@
+import Images from "../elements/images-hero/images";
+
 let Hero = () => {
   return (
     <div className="pt-24 pb-12 bg-gray-100" id="home">
@@ -15,27 +17,16 @@ let Hero = () => {
       </div>
       <div className="w-full px-4">
         <div className="flex flex-wrap items-center justify-center">
-          <img
-            src="../../public/images/techcrunch.png"
+          <Images
+            img="../../public/images/techcrunch.png"
             alt="techcrunch.png"
-            className="mb-12 lg:mr-4"
           />
-          <img
-            src="../../public/images/mashable.png"
-            alt="mashable.png"
-            className="mb-12 lg:mx-4"
+          <Images img="../../public/images/mashable.png" alt="mashable.png" />
+          <Images
+            img="../../public/images/bizinsider.png"
+            alt="bizinsider.png"
           />
-          <img
-            src="../../public/images/bizinsider.png"
-            alt="BussinesInder.png"
-            className="mb-12 lg:mx-4"
-          />
-          <img
-            src="../../public/images/tnw.png"
-            alt="tnw.png"
-            height="30px"
-            className="mb-12 lg:ml-4"
-          />
+          <Images img="../../public/images/tnw.png" alt="tnw.png" />
         </div>
       </div>
     </div>
